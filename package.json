@@ -1,0 +1,33 @@
+{
+  "name": "unweb",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for the UnWeb API — convert HTML to Markdown for AI pipelines",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["html", "markdown", "api", "ai", "llm", "rag", "web-scraping", "typescript"],
+  "author": "MBSoft Systems",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/mbsoft-systems/unweb-js.git" },
+  "homepage": "https://unweb.info",
+  "engines": { "node": ">=18.0.0" },
+  "devDependencies": {
+    "tsup": "^8.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^2.0.0"
+  }
+}
