@@ -1,7 +1,7 @@
 # UnWeb TypeScript SDK
 
 [![CI](https://github.com/mbsoft-systems/unweb-js/actions/workflows/ci.yml/badge.svg)](https://github.com/mbsoft-systems/unweb-js/actions/workflows/ci.yml)
-[![npm version](https://img.shields.io/npm/v/unweb.svg)](https://www.npmjs.com/package/unweb)
+[![npm version](https://img.shields.io/npm/v/@mbsoftsystems/unweb.svg)](https://www.npmjs.com/package/@mbsoftsystems/unweb)
 [![Node 18+](https://img.shields.io/badge/node-18%2B-blue.svg)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 

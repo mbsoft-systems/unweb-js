@@ -27,7 +27,7 @@ jobs:
       id-token: write
     environment:
       name: npm
-      url: https://www.npmjs.com/package/unweb
+      url: https://www.npmjs.com/package/@mbsoftsystems/unweb
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
