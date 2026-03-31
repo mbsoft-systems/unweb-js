@@ -12,20 +12,37 @@
       "require": "./dist/index.cjs"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsup",
     "test": "vitest run",
     "test:watch": "vitest",
     "prepublishOnly": "npm run build"
   },
-  "keywords": ["html", "markdown", "api", "ai", "llm", "rag", "web-scraping", "typescript"],
+  "keywords": [
+    "html",
+    "markdown",
+    "api",
+    "ai",
+    "llm",
+    "rag",
+    "web-scraping",
+    "typescript"
+  ],
   "author": "MBSoft Systems",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/mbsoft-systems/unweb-js.git" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbsoft-systems/unweb-js.git"
+  },
   "homepage": "https://unweb.info",
-  "engines": { "node": ">=18.0.0" },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "devDependencies": {
+    "@types/node": "^25.5.0",
     "tsup": "^8.0.0",
     "typescript": "^5.4.0",
     "vitest": "^2.0.0"

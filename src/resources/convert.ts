@@ -26,7 +26,7 @@ export class ConvertResource {
       name = fileName ?? 'upload.html';
     }
     const formData = new FormData();
-    formData.append('file', new Blob([buffer]), name);
+    formData.append('file', new Blob([new Uint8Array(buffer)]), name);
     const data = await this.client._request('POST', '/api/convert/upload', { body: formData, authMode: 'api_key' });
     return toResult(data);
   }
