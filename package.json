@@ -1,6 +1,6 @@
 {
   "name": "@mbsoftsystems/unweb",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TypeScript SDK for the UnWeb API — convert HTML to Markdown for AI pipelines",
   "keywords": [
     "html",
